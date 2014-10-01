@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MeowChat</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="sign_up_link">Not registered? Tap below to sign up right meow!</string>
+    <string name="welcome_text">Hey you! Log in right meow :)</string>
+    <string name="title_activity_sign_up">SignUpActivity</string>
+    <string name="create_account_prompt">Create Your MeowChat Account!</string>
+    <string name="create_account_button">Create Account</string>
+    <string name="login_button">Log In!</string>
+    <string name="enter_password_hint">Enter Password</string>
+    <string name="enter_meowsername_hint">Meowsername(Username)</string>
+    <string name="title_activity_camera">CameraActivity</string>
+    <string name="title_activity_friend_list">FriendListActivity</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <string name="title_activity_tab_test">TabTest</string>
+    <string name="title_activity_tab">TabActivity</string>
+    <string name="One">1</string>
+    <string name="Two">2</string>
+    <string name="Three">3</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="friendList">Friend List</string>
+
+</resources>

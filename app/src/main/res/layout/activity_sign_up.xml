@@ -1,0 +1,60 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.userblitz.justinezor1992.meowchat.SignUpActivity"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="16dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/create_account_prompt"
+        android:id="@+id/textView2"
+        android:layout_gravity="center_horizontal"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft = "10dp"
+        android:layout_marginRight = "10dp"
+        android:layout_marginTop="65dp"
+        android:layout_marginBottom = "10dp"
+        android:inputType="textPersonName"
+        android:hint="@string/enter_meowsername_hint"
+        android:ems="10"
+        android:id="@+id/usernameEditText" />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft = "10dp"
+        android:layout_marginRight = "10dp"
+        android:layout_marginTop = "10dp"
+        android:layout_marginBottom = "10dp"
+        android:inputType="textPassword"
+        android:hint="@string/enter_password_hint"
+        android:ems="10"
+        android:id="@+id/passwordEditText"  />
+
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:id="@+id/textView4"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.15" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/create_account_button"
+        android:id="@+id/createAccountButton"
+        android:layout_weight="0.04"
+        android:layout_gravity="center_horizontal" />
+
+</LinearLayout>
